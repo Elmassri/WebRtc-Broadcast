@@ -1,10 +1,12 @@
+require("dotenv").config();
 const express = require("express");
 const app = express();
 
 let broadcaster;
-const port = 4000;
+const port = process.env.PORT;
 
 const http = require("http");
+const { env } = require("process");
 const server = http.createServer(app);
 
 const io = require("socket.io")(server);
