@@ -1,2 +1,2 @@
-# WebRtc-Broadcaster Side is : localhost:4000/broadcast
-# WebRtc-Viewer side is : localhost:4000
+# WebRtc-Broadcaster Side is : https://livestreamtestapp.herokuapp.com/broadcast.html
+# WebRtc-Viewer side is : https://livestreamtestapp.herokuapp.com/
